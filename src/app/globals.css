@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Header Container styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Left Section */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b82f6; /* Blue color */
+}
+
+/* Search Bar */
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 16px;
+  background: #f9f9f9;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  width: 400px;
+  height: 40px;
+}
+
+.search-input {
+  border: none;
+  background: transparent;
+  font-size: 0.875rem;
+  flex-grow: 1;
+  outline: none;
+}
+
+.icon-search {
+  color: #9ca3af;
+  font-size: 18px;
+}
+
+.filter-button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+/* Right Section */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.notification {
+  position: relative;
+  cursor: pointer;
+}
+
+
+/* Profile Placeholder */
+.profile {
+  width: 32px;
+  height: 32px;
+  background-color: #d1d5db;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icon, .icon-search, .icon-filter {
+  color: #6b7280; /* Grey color for icons */
+}
+
+/* Set sizes for the icons */
+.icon-search, .icon-filter {
+  font-size: 18px;  /* smaller icons */
+}
+
+.icon {
+  font-size: 20px;  /* standard icon size */
+}
+
+/* Notification dot styling */
+.notification-dot {
+  background-color: #ef4444;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+}
+
+
+
+.profile-placeholder {
+  width: 24px;
+  height: 24px;
+  background-color: #9ca3af;
+  border-radius: 50%;
+}
+
+
+/* Footer Container styling */
+
+.footer {
+  width:100vw;
+  height: 480px;
+  position: relative;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Top Section */
+.footer-top {
+  display: flex;
+  grid-template-columns: 1fr;
+  gap: 630px;
+}
+.links{
+  gap: 50px;
+  display: flex;
+}
+
+.footer-logo-vision {
+  padding-left: 30px;
+  margin-left: 30px;
+  margin-right: 40px;
+  width:280px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3b82f6; /* Blue color */
+}
+
+.footer-vision {
+  font-size: 14px;
+  color: #4b5563; /* Grey color */
+  margin-top: 10px;
+}
+
+.footer-about,
+.footer-community,
+.footer-socials {
+  margin-left: 40px;
+}
+
+.footer-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937; /* Dark grey color */
+}
+
+.footer-links {
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-link {
+  font-size: 14px;
+  color: #6b7280; /* Grey color */
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-link:hover {
+  color: #3b82f6; /* Blue color on hover */
+}
+
+/* Bottom Section */
+.footer-bottom {
+  margin-top: 30px;
+  display: flex;
+  border-top: 1px solid #e5e7eb;
+  padding: 30px;
+  gap: 1000px
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #1f2937; /* Grey color */
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-bottom-link {
+  font-size: 14px;
+  color: #1f2937; /* Grey color */
+  text-decoration: none;
+}
+
+.footer-bottom-link:hover {
+  color: #3b82f6; /* Blue color on hover */
+}
+
